@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_kode_mstopd"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/nourut_mstopd"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mstopd_nama"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/opd"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="No" />
+
+    <TextView
+        android:text="Nama Kecamatan"
+        android:id="@+id/mstopd_kecamatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/opd"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="3dp"
+        android:maxLines="3"
+        android:layout_toRightOf="@+id/nourut_mstopd"
+        android:layout_toEndOf="@+id/nourut_mstopd" />
+
+    <TextView
+        android:id="@+id/mstopd_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mstopd_kecamatan"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/nourut_mstopd"
+        android:layout_toRightOf="@+id/nourut_mstopd"
+        android:maxLines="4"
+        android:text="Nama OPD terkait"
+        android:textColor="#5d5d5d" />
+    <TextView
+        android:id="@+id/txt_kodekecamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+</RelativeLayout>

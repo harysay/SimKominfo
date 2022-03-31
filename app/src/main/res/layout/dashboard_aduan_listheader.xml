@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c0c0c0">
+        <TextView
+            android:id="@+id/noUrutAduan"
+            android:layout_column="0"
+            android:padding="10sp"
+            android:text="No"
+            android:background="#c0c0c0"
+            android:layout_span="2">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tglAduan"
+            android:layout_column="1"
+            android:background="#c0c0c0"
+            android:padding="10sp"
+            android:text="Tanggal"></TextView>
+
+        <TextView
+            android:id="@+id/opdAduan"
+            android:layout_column="2"
+            android:background="#c0c0c0"
+            android:padding="10sp"
+            android:text="Opd"
+            android:textAlignment="center"></TextView>
+
+        <TextView
+            android:id="@+id/keteranganAduan"
+            android:layout_column="3"
+            android:background="#c0c0c0"
+            android:padding="10sp"
+            android:text="Keterangan"
+            android:textAlignment="center"></TextView>
+    </TableRow>
+</TableLayout>
